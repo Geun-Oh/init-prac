@@ -75,5 +75,6 @@
   },
   "parserOptions": {
     "sourceType": "module"
-  }
+  },
+  "parser": "babel-parser"
 }
