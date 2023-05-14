@@ -73,8 +73,12 @@
       "version": "detect"
     }
   },
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
-    "sourceType": "module"
-  },
-  "parser": "babel-parser"
+    "sourceType": "module",
+    "requireConfigFile" : false,
+    "babelOptions": {
+      "presets": ["@babel/preset-react"]
+    }
+  }
 }
